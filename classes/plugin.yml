@@ -3,3 +3,9 @@ version: 1.0.0
 author: mogu
 main: com.Main
 api-version: 1.16
+
+commands:
+  hello:
+    description: Says hello!
+    usage: /hello
+    aliases: [hi]

@@ -8,14 +8,6 @@ import org.bukkit.entity.Player;
 import com.Main;
 
 public class HelloCommand implements CommandExecutor {
-
-  private Main plugin;
-
-  public HelloCommand(Main plugin) {
-    this.plugin = plugin;
-    plugin.getCommand("hello").setExecutor(this);
-  }
-
   @Override
   public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
     if (!(sender instanceof Player)) {
