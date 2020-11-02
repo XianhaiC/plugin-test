@@ -1,5 +1,5 @@
-name: MainPlugin
+name: HelloPlugin
 version: 1.0.0
 author: mogu
-main: MainPlugin
+main: com.Main
 api-version: 1.16
