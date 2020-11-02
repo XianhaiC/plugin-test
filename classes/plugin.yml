@@ -1,0 +1,5 @@
+name: TestPlugin
+version: 1.0.0
+author: mogu
+main: MainPlugin
+api-version: 1.16
