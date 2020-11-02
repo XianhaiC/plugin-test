@@ -1,4 +1,4 @@
-name: TestPlugin
+name: MainPlugin
 version: 1.0.0
 author: mogu
 main: MainPlugin
