@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+## TODO make the necessary changes in this file and set the filename
+## to make.sh aferwards
+
+# compile the main class with the spigot jar
+javac -cp <TODO path to spigot.jar> src/com/commands/*.java src/com/Main.java -d classes
+# bundle together into an archive
+jar cvf builds/HelloPlugin.jar -C classes .
